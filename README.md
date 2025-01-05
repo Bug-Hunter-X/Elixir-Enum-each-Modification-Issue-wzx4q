@@ -1,0 +1,1 @@
+This example demonstrates a common mistake in Elixir when using Enum.each to modify a list.  Attempting to modify the list directly within the Enum.each function does not work as expected because Elixir lists are immutable.  The solution demonstrates using Enum.filter or List.delete/2 appropriately.
